@@ -6,10 +6,21 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+      height: {
+        '200': '200px',
+        'sm': '200px',
+        'md': '300px',
+        'lg': '400px',
+        'xl': '500px',
+      }
+    }
+    },
+  variants: {},
+
   plugins: [
     require('flowbite/plugin')
   ],
 }
+
 
